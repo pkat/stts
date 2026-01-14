@@ -5,6 +5,6 @@
 
 import Foundation
 
-class Zapier: IncidentIOService {
+final class Zapier: IncidentIOService {
     let url = URL(string: "https://status.zapier.com")!
 }
